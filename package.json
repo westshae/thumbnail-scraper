@@ -1,13 +1,13 @@
 {
-  "name": "video_data_collector",
+  "name": "social_optim",
   "version": "1.0.0",
-  "main": "video_data_collector",
   "author": "westshae",
   "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node video_data_collector.js"
+    "videoid": "node scripts/video_data_collector.js",
+    "start": "node main.js"
   },
   "dependencies": {
     "axios": "^1.1.3",
